@@ -1,85 +1,129 @@
 # EYES TO EARTH | ICYMI
-
 ### Seeing the Incomáti from Space
 
-A digital editorial feature documenting the first EYES TO EARTH Student Workshop, held on **31 October**, under the theme **“Seeing the Incomáti from Space”**.
+**A Digital Editorial Feature | EYES TO EARTH Student Workshop | 31 October**
+
+---
+
+## About the Project
+
+**EYES TO EARTH | ICYMI** is a digital editorial feature documenting the first EYES TO EARTH Student Workshop, held on 31 October, under the theme *"Seeing the Incomáti from Space"*.
+
+The project highlights how Earth Observation and satellite technology can support the understanding and monitoring of water resources, using the Incomáti River region in Marracuene, Mozambique, as a case study.
+
+Through satellite imagery, remote sensing techniques and geospatial analysis, participants explored how information collected from space can help investigate environmental changes on Earth.
 
 ## About the Workshop
 
-The workshop introduced students to Earth Observation, satellite technology and practical applications of remote sensing.
+The workshop introduced students to the fundamentals of Earth Observation and practical applications of remote sensing.
 
-Participants explored Landsat and Sentinel satellite missions, optical and radar sensors, spatial resolution, revisit frequency and spectral bands.
+Topics included:
+
+- Earth Observation and satellite technology;
+- Landsat and Sentinel satellite missions;
+- Optical and radar remote sensing;
+- Spatial resolution and revisit frequency;
+- Spectral bands and satellite imagery;
+- Water monitoring using remote sensing indices.
 
 ## From Theory to Practice
 
-Using real satellite imagery of the Incomáti region in Marracuene, participants worked with Google Colab, Jupyter Notebook and Python to:
+The practical activities focused on satellite imagery of the Incomáti River region in Marracuene.
 
-- Explore satellite imagery;
-- Compare dry and wet seasons;
-- Calculate NDWI and MNDWI;
-- Experiment with water-detection thresholds;
-- Generate and share water maps.
+Using Google Colab, Jupyter Notebook and Python, participants explored:
+
+- Satellite image acquisition and visualisation;
+- Landsat and Sentinel image comparison;
+- Dry and wet season analysis;
+- Normalized Difference Water Index (NDWI);
+- Modified Normalized Difference Water Index (MNDWI);
+- Water-detection thresholds;
+- Histograms and spectral signatures;
+- Water mapping and spatial comparison.
+
+## Scientific Analysis and Visual Results
+
+The project includes a collection of satellite images, maps, graphs and analytical results produced during the practical activities.
+
+| Visual material | Description |
+|---|---|
+| `comparacao-sentinel-landsat.jpg` | Comparison between Sentinel and Landsat imagery |
+| `mapa-cheia-2026.jpg` | Flood extent visualisation |
+| `mapa-limiar-escolhido.jpg` | Selected water-detection threshold |
+| `comparacao-limiares-agua.jpg` | Comparison of water-detection thresholds |
+| `histograma-mndwi.jpg` | MNDWI value distribution |
+| `indices-ndwi-mndwi.jpg` | Comparison of NDWI and MNDWI |
+| `assinatura-espectral.jpg` | Spectral signature analysis |
+| `falsa-cor-seca.jpg` | False-colour satellite imagery during the dry season |
+| `rio-incomati-seca-cheia.jpg` | Comparison of dry and wet season conditions |
 
 ## Project Structure
 
-The repository is organised as follows:
+The repository is organised into three main website files and a dedicated folder for visual materials.
 
 ```text
 eyes-to-earth-icymi/
+│
 ├── index.html
 ├── style.css
 ├── README.md
+│
 └── images/
-    ├── hero-incomati.jpg
-    ├── presentation-speaker.jpg
-    ├── presentation-slides.jpg
-    ├── notebook-code.jpg
-    ├── satellite-before.jpg
-    ├── ndwi-result.jpg
-    ├── dry-season-map.jpg
-    ├── wet-season-map.jpg
-    ├── students-working.jpg
-    ├── students-presenting.jpg
-    └── certificates-group.jpg
+    ├── comparacao-sentinel-landsat.jpg
+    ├── mapa-cheia-2026.jpg
+    ├── mapa-limiar-escolhido.jpg
+    ├── comparacao-limiares-agua.jpg
+    ├── histograma-mndwi.jpg
+    ├── indices-ndwi-mndwi.jpg
+    ├── assinatura-espectral.jpg
+    ├── falsa-cor-seca.jpg
+    └── rio-incomati-seca-cheia.jpg
 ```
 
-## Image Organisation
+**Note:** All image files are stored in the `images/` directory. File names and extensions must match exactly those referenced in `index.html`.
 
-All photographs and visual materials used on the website are stored directly inside the `images/` folder.
+## Website Sections
 
-The images are organised according to their role in the editorial feature:
+The digital feature is structured around three main sections:
 
-| File name | Purpose |
-|---|---|
-| `hero-incomati.jpg` | Main opening image of the feature |
-| `presentation-speaker.jpg` | Workshop speaker during the presentation |
-| `presentation-slides.jpg` | Presentation slides and theoretical session |
-| `notebook-code.jpg` | Practical work using Python and Jupyter Notebook |
-| `satellite-before.jpg` | Satellite imagery used during the exercise |
-| `ndwi-result.jpg` | NDWI analysis result |
-| `dry-season-map.jpg` | Water mapping during the dry season |
-| `wet-season-map.jpg` | Water mapping during the wet season |
-| `students-working.jpg` | Students participating in the practical activities |
-| `students-presenting.jpg` | Students presenting their results |
-| `certificates-group.jpg` | Group photograph during the certificate ceremony |
+1. **The Workshop** – Introduction to the event, presentations and student participation.
+2. **The Science** – Satellite imagery, remote sensing indices and analytical methods.
+3. **The Results** – Water maps, seasonal comparisons and scientific visualisations.
 
-**Important:** Image filenames must match exactly those referenced in the website's HTML file (`index.html`). All images should remain inside the `images/` folder, without additional subfolders.
+## Technologies and Tools
 
-## Website
+The project brings together several tools and technologies:
 
-This project is designed as a public, responsive digital report, hosted using GitHub Pages.
+- **HTML5** – Website structure.
+- **CSS3** – Layout, styling and responsive design.
+- **Python** – Scientific data processing and analysis.
+- **Google Colab** – Cloud-based computational environment.
+- **Jupyter Notebook** – Interactive scientific programming.
+- **Landsat and Sentinel** – Earth Observation satellite missions.
+- **NDWI and MNDWI** – Water detection and monitoring indices.
 
-## Deployment
+## Publication and Deployment
 
-To publish the website using GitHub Pages:
+The website is designed to be hosted publicly using **GitHub Pages**.
 
-1. Open the repository's **Settings**.
-2. Select **Pages** from the sidebar.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select the `main` branch and the `/ (root)` folder.
-5. Click **Save**.
+To publish:
 
-Once deployment is complete, the website will be publicly accessible through its GitHub Pages URL.
+1. Upload the project files to a GitHub repository.
+2. Open the repository's **Settings**.
+3. Navigate to **Pages**.
+4. Under *Build and deployment*, select **Deploy from a branch**.
+5. Choose the `main` branch and `/ (root)` directory.
+6. Click **Save**.
+
+GitHub Pages will generate a public link to access the digital feature.
+
+## Project Credits
+
+**EYES TO EARTH**  
+Student Workshop | 31 October  
+Seeing the Incomáti from Space
+
+*Observing Earth. Understanding our world. Exploring solutions from space.*
 
 ## Credits
 
